@@ -11,7 +11,7 @@ post '/team' do
   @pg = params[:pg]
   @sg = params[:sg]
   @sf = params[:sf]
-  @power_forward = params[:pf]
+  @pf = params[:pf]
   @center = params[:c]
   erb :team
 end
